@@ -12,7 +12,7 @@
 1. Download and install AWS SAM CLI. 
 2. Inside the project directory, run `sam build` to build the project.
 3. Run `sam deploy --guided` to deploy the project.
-4. Follow the prompts to deploy the project.
+4. Follow the prompts to deploy the project. (You'll need to specify the S3 bucket to use)
 5. Populate the DynamoDB table by adding an item for each user. Example: 
 ```javascript
 {"user": "user1", "password": "password1"}
