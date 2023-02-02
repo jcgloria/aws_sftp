@@ -7,3 +7,9 @@
 - DynamoDB table
 - AWS Transfer Server
 - IAM Permissions 
+
+#### How to use:
+1. Download and install AWS SAM CLI. 
+2. Inside the project directory, run `sam build` to build the project.
+3. Run `sam deploy --guided` to deploy the project.
+4. Follow the prompts to deploy the project.
