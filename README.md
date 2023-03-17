@@ -1,6 +1,6 @@
 # Password-Enabled SFTP Server for S3 Buckets in AWS
 
-#### This solution deploys an AWS Transfer server that authenticates users using a Lambda Function. The Lambda function checks a DynamoDB table where the user credentials are stored. If the password is correct, the user is granted SFTP access to a personal folder inside an s3 bucket. Each user will have a dedicated folder and aren't able to access other user's folders inside the bucket. 
+#### This solution deploys an AWS Transfer server that authenticates users via a user/password combination using a Lambda Function. The Lambda function checks a DynamoDB table where the user credentials are stored. If the password is correct, the user is granted SFTP access to a personal folder inside an s3 bucket. Each user will have a dedicated folder and aren't able to access other user's folders inside the bucket. 
 
 #### AWS Resources Deployed: 
 - Lambda Function
